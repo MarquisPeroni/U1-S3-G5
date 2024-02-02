@@ -588,6 +588,19 @@ addClassToRows();
 
 */
 
+function halfTree(height) {
+  for (let i = 1; i <= height; i++) {
+    let row ='';
+    for (let j = 1; j <= i; j++) {
+      row += '*';
+    }
+    console.log(row);
+  }
+}
+
+halfTree(3);
+
+
 /* ESERCIZIO 28
   Crea una funzione chiamata "tree" che riceve un numero come parametro e costruisce un albero di "*" (asterischi) dell'altezza fornita.
 
